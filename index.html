@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Tshiamo Mpe</span><br> </h1>
+            </div>
+
+        </div>
+    </div>
+    <!--------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/user3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> A Software Developer Alumni. I've always been passionate about problem-solving,
+                         a trait that naturally steered me towards a career in software development.
+                         The most exhilarating part for me has always been the moment of code compilation - when everything falls into place successfully, 
+                         it's an incomparable feeling of achievement, a sentiment that remains unchanged to this day  </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C++</span><br>MySQL PL/SQL</li>
+                        <li><span>HTML CSS</span><br>PHP</li>
+                        <li><span>Network Configuration</span><br>PowerBi</li>
+                        <li><span>Leadership</span></li>
+                    </ul>
+                    </div>
+                    
+                     <div class="tab-contents" id="experience">
+                         <ul>
+                            <li><span>2023 - Current</span><br>Internship at ABT Telecoms</li>
+                            </li>
+                             </ul>
+                     </div>
+                    <div class="tab-contents" id="education">
+                         <ul>
+                            <li><span>2024</span><br>National Diploma in Software Development at Tshwane University 
+                            of Technology</li>
+                            <li><span>2016</span><br>Matric Certificate</li>
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!----------------services --------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-regular fa-code"></i>
+                <h2></i>Web Design</h2>
+                <p>I am a passionate Frontend Developer with a knack for creating intuitive and high-performing web applications.</p>
+            </div>
+            
+            <div>
+                <i class="fas fa-crop-alt"></i>
+              <h2>System Analysis</h2>
+              <p>I am  interested in designing system that satisfies business objectives. i have basic project management
+                 skills to plan, organize, and prioritize tasks effectively, as well as track progress and manage expectations.</p>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+              <h2>Testing</h2>
+              <p>I have been using the Black Box Testing method to examine the application functionality </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------projects  --------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ZarfinCo (2).png">
+                <div class="layer">
+                    <h3>CRM System</h3>
+                    <p>An administrative portal designed
+                         to manage various aspects of insurance operations. The Key Components are Policy Management, 
+                         Claims Processing, Agent Management, Reporting & Analytics</p>
+                         <a href="https://zarfinco.ntidgroup.co.za"><i class="fas fa-external-link-alt"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Ticketing System</h3>
+                    <p>A software application designed to automate the process of booking train tickets</p>
+                         <a href="https://trainticket.ntidgroup.co.za"><i class="fas fa-external-link-alt"></i></a>
+                </div> 
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- -------------------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> tshiamo.mpe13@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 081 398 7585</p>
+            
+            <div class="social-icons">
+            FOLLOW ME:
+                <a href="https://www.facebook.com/tshiamo.mpe.7" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_tshiamompe/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://za.linkedin.com/in/tshiamo-mpe-7b964a217" target="_blank"><i class="fab fa-linkedin"></i></a><br>
+                <a href="images/Tshiamo_Mpe.pdf" download class="btn btn2" target="_blank">Download My CV</a>
+            </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tshiamo.  <i class="fas fa-heart"></i> </p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function openmenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0_HEvheWr5XwMDBenzfP6o1bm2Wv0kiJRGNTIx9BMUnxoFTyzsW9yq5-lvoB0ZiqT2Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        constmsg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
